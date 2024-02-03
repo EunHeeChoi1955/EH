@@ -2382,7 +2382,12 @@ tr,td,th {
     border-bottom: 1px solid #eaedf4;
 }
 
-.toc__menu a:hover {
+.toc__menu li:last-child a {
+  
+    border-bottom: 0;
+}
+
+.toc__menu li a:hover {
     color: #292e41;
     text-decoration:none;
 }
